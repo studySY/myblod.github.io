@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/myblod.github.io/2022/03/16/hello-world/</url>
+    <url>/2022/03/16/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -20,12 +20,12 @@
   </entry>
   <entry>
     <title>个人简介</title>
-    <url>/myblod.github.io/2022/02/10/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/</url>
+    <url>/2022/02/10/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>第一篇文章</title>
-    <url>/myblod.github.io/2022/02/10/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <url>/2022/02/10/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h3 id="一-准备环境-1-安装Node-2-安装Git-3-注册码云-4-安装Node-npm-hexo-g-cli"><a href="#一-准备环境-1-安装Node-2-安装Git-3-注册码云-4-安装Node-npm-hexo-g-cli" class="headerlink" title="一.准备环境 1.安装Node 2.安装Git 3.注册码云 4.安装Node npm hexo -g -cli"></a>一.准备环境 1.安装Node 2.安装Git 3.注册码云 4.安装Node <code>npm hexo -g -cli</code></h3><hr>
 ]]></content>
       <categories>
