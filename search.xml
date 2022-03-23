@@ -56,4 +56,37 @@
         <category>日记</category>
       </categories>
   </entry>
+  <entry>
+    <title>php函数</title>
+    <url>/2022/03/23/php%E5%87%BD%E6%95%B0/</url>
+    <content><![CDATA[<blockquote>
+<p>php time()函数 语法</p>
+</blockquote>
+<ul>
+<li>php time()函数是用来返回当前时间的unix时间戳。语法是time()，返回自从Unix纪元（格林威治时间1970年1月1日 00:00:00）到当前时间的秒数。</li>
+<li>作用：返回当前时间的Unix时间戳。</li>
+<li>语法：time()</li>
+<li>参数：time()函数仅返回当前时间的Unix，没有参数。</li>
+<li>说明：返回自从Unix纪元，（格林威治时间1970年1月1日00:00:00）到当前时间的秒数。<blockquote>
+<p>php time()函数 示例</p>
+</blockquote>
+</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">    $i = time();</span><br><span class="line">    echo $i;    //输出：1523947811</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<h3 id="学习点总结：php-time-时间不对怎么办"><a href="#学习点总结：php-time-时间不对怎么办" class="headerlink" title="学习点总结：php time 时间不对怎么办"></a>学习点总结：php time 时间不对怎么办</h3></blockquote>
+<ul>
+<li>php time时间不对是因为当前时区设置不对，其解决办法：首先找到并打开PHP.ini文件；然后修改时间为“date.timezone &#x3D; Asia&#x2F;Shanghai”即可。</li>
+<li>PHP的time()得到的时间与当前时间相差很多，检查了PHP.ini，发现是时区不对。在PHP.ini中，当前设置为：</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Date]</span><br><span class="line"></span><br><span class="line">; Defines the default timezone used by the date functions</span><br><span class="line"></span><br><span class="line">; http://php.net/date.timezone</span><br><span class="line"></span><br><span class="line">date.timezone = Europe/Paris    //欧洲巴黎时间</span><br><span class="line"></span><br><span class="line">; http://php.net/date.default-latitude</span><br><span class="line"></span><br><span class="line">date.default_latitude = 48.88778</span><br><span class="line"></span><br><span class="line">; http://php.net/date.default-longitude</span><br><span class="line"></span><br><span class="line">date.default_longitude = 2.31806</span><br></pre></td></tr></table></figure>
+<ul>
+<li>也就是当前使用欧洲巴黎时间，现在我们把它修改为上海时间<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Date]</span><br><span class="line"></span><br><span class="line">; Defines the default timezone used by the date functions</span><br><span class="line"></span><br><span class="line">; http://php.net/date.timezone</span><br><span class="line"></span><br><span class="line">date.timezone = Asia/Shanghai   //上海时间</span><br><span class="line"></span><br><span class="line">; http://php.net/date.default-latitude</span><br><span class="line"></span><br><span class="line">date.default_latitude = 31.5167</span><br><span class="line"></span><br><span class="line">; http://php.net/date.default-longitude</span><br><span class="line"></span><br><span class="line">date.default_longitude = 121.4500</span><br></pre></td></tr></table></figure></li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>日记</category>
+      </categories>
+  </entry>
 </search>
